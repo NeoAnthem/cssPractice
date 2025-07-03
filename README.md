@@ -1,6 +1,7 @@
 # cssPractice
-Includes all the CSS assignments
+
 Satisfy the following conditions and create .css  file with reference to the exercise.html file.
+
 Conditions :
 
 1. Use id selector for first h1 and give color to navyblue
