@@ -1,0 +1,27 @@
+.info {
+  color: rgb(117, 201, 48);
+  background-color: rgb(84, 30, 83);
+  font-weight: 700;
+  font-size: 35px;
+  /* text-decoration: underline; */
+  text-decoration: wavy underline rgb(148, 171, 31);
+  /* text-decoration: dotted line-through red; */
+  /* text-decoration: dashed line-through black; */
+  /* text-decoration: dashed overline red; */
+  /* text-decoration: overline;*/
+}
+
+.demo {
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(165, 198, 225);
+    background-color: rgb(88, 16, 111);
+    text-decoration: line-through 2px rgb(62, 183, 25);
+    font-size: 50px;
+
+}

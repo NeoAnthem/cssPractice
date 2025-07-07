@@ -1,0 +1,15 @@
+input[type="text"] {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+input[type="password"] {
+  background-color: rgb(255, 0, 0);
+  color: aqua;
+}
+
+/* Pseudo class Selector */
+button:hover {
+    background-color: black;
+    text-transform: uppercase;
+    color:white;
+}

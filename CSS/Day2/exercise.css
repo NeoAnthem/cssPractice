@@ -1,0 +1,55 @@
+/* 1. Use id selector for first h1 and give color to navyblue */
+#main-heading {
+  color: navy;
+}
+
+/* 2. Align all the text of the page to center */
+body {
+  text-align: center;
+}
+
+/* 3. Change font of all the headings to Georgia */
+h1, h2, h3 {
+  font-family: Georgia, serif;
+}
+
+/* 4. Set the color of all paragraphs to white and bg color to cornflowerblue (without using tag selector - p) */
+[class*="para"] {
+  color: white;
+  background-color: cornflowerblue;
+  padding: 10px;
+  margin: 10px auto;
+  display: inline-block;
+}
+
+/* 5. Select all buttons in div to purple and text color to azure */
+div button {
+  background-color: purple;
+  color: azure;
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 6. Select Yes label and color to green and No label color to red */
+label[for="yes"] {
+  color: green;
+}
+
+label[for="no"] {
+  color: red;
+}
+
+/* 7. Underline 'understanding of selectors' from first h3 and apply italic using CSS */
+h3#selectors-title {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/* 8. All the paragraph in id wrapper(only in wrapper div) make them bold and color to green */
+#wrapper > p {
+  color: green;
+  font-weight: bold;
+}

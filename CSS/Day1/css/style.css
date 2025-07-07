@@ -1,0 +1,32 @@
+h1 {
+  color: blue;
+  background-color: brown;
+}
+
+p {
+  background-color: aqua;
+  /* width: 50%; */
+}
+span {
+  background-color: aqua;
+}
+/* 
+p {
+  background-color: rgb(0, 0, 255);
+  background-color: rgb(0, 0, 0);
+} */
+
+h1 {
+  background-color: #0000ff;
+  background-color: rgba(0, 0, 255, 0.514);
+  background-color: #9bc09c;
+  color: #ff0000;
+}
+
+/* Text Properties */
+p {
+  /* text-align: right; */
+  text-align: justify;
+  font-weight: 900;
+  width: 50%;
+}
