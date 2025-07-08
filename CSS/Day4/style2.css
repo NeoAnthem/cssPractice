@@ -1,0 +1,42 @@
+div {
+  width: 200px;
+  height: 150px;
+}
+
+.first {
+  background-color: chocolate;
+  /* padding-top: 40px;
+  padding-right: 60px;
+  padding-left: 20px;
+  padding-bottom: 100px; */
+  /* padding: 40px 60px 100px 20px; */
+  /* padding: 40px 25px; */
+  /* padding: 40px; */
+  /* padding-inline: 35px; */
+  padding-block: 35px;
+  /* margin-bottom: 50px; */
+  /* margin-left: 100px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-inline: auto; */
+
+  margin: 50px auto;
+
+  /* border-width: 10px;
+  border-style: dashed;
+  border-color: red; */
+  border: 5px solid red;
+}
+.second {
+  background-color: darkcyan;
+}
+
+.circle {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border: 10px solid green;
+  background-color: brown;
+  /* border-radius: 110px; */
+  border-radius: 50%;
+}

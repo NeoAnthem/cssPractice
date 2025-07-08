@@ -1,0 +1,28 @@
+/* div p {
+  color: orange;
+  background-color: slategrey;
+} */
+
+/* div > p {
+  color: red;
+  background-color: yellow;
+} */
+/* 
+div + p {
+  color: aqua;
+  background-color: tomato;
+} */
+
+/* p.main {
+  background-color: teal;
+}
+
+h1.main {
+  color: green;
+  background-color: grey;
+} */
+
+.main {
+  color: violet;
+  background-color: aqua;
+}
