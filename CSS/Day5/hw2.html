@@ -1,7 +1,41 @@
 <!--
 Qs2. Create a list of technologies - HTML, CSS, JavaScript, NodeJS, ReactJS, SQL,
-MongoDB, Java, C++
-, C & Python.
+MongoDB, Java, C++, C & Python.
 Now change the display of all list items to inline to move them all in a single line.
 Did you notice something different? Try to find why the bullet points disappear.
+
+Answer : The list item no longer behaves like a block-level element,
+so the browser removes the bullet points automatically.
+This is a default behavior because bullets are tied to block display.
 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    ul.inline-list li {
+      display: inline;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <ul class="inline-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>NodeJS</li>
+    <li>ReactJS</li>
+    <li>SQL</li>
+    <li>MongoDB</li>
+    <li>Java</li>
+    <li>C++</li>
+    <li>C</li>
+    <li>Python</li>
+  </ul>
+
+</body>
+</html>
+
+
