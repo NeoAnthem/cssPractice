@@ -1,0 +1,11 @@
+html {
+    font-size: 20px;
+}
+
+.parent {
+    font-size: 3rem;
+}
+
+.child {
+    font-size: 1.5rem;
+}

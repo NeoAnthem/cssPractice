@@ -1,0 +1,22 @@
+#wrapper {
+    font-size: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+    border: 2px solid red;
+}
+
+.child {
+
+    /* em - for typographic properties works with respect to font-size of parent*/
+    font-size: 2em;
+    /* 2 * 20px(parent font-size) */
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 130, 182);
+    border: 2px solid rgb(43, 255, 0);
+    padding: 1.5em;
+    /* 1.5 * 40px(self font-size) */
+    /* em -> for other sizing related properties will works wrt to its own font size */
+
+}

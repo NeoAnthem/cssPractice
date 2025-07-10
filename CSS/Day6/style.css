@@ -1,0 +1,26 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 95%;
+    height: 600px;
+    border: 2px solid red;
+    background-color: azure;
+    margin-top: 10px;
+}
+.child {
+    width: 50%;
+    height: 20%;
+    border: 2px solid blue;
+    background-color: aqua;
+}
+.child1 {
+    width: 50%;
+    height: 20%;
+    border: 2px solid red;
+    margin-top: 5px;
+    background-color: blueviolet;
+}
