@@ -49,7 +49,8 @@ h3#selectors-title {
   font-style: italic;
 }
 
-/* 8. All the paragraph in id wrapper(only in wrapper div) make them bold and color to green */
+/* 
+8. All the paragraph in id wrapper(only in wrapper div) make them bold and color to green */
 #wrapper > p {
   color: green;
   font-weight: bold;
