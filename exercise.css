@@ -1,5 +1,6 @@
 /*
-1. Use id selector for first h1 and give color to navyblue */
+1. Use id selector for first h1 and give color to navyblue
+*/
 #main-heading {
   color: navy;
 }
