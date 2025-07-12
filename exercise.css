@@ -30,7 +30,8 @@ h1, h2, h3 {
   display: inline-block;
 }
 
-/* 5. Select all buttons in div to purple and text color to azure */
+/* 
+5. Select all buttons in div to purple and text color to azure */
 div button {
   background-color: purple;
   color: azure;
