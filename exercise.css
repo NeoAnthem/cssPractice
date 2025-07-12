@@ -12,7 +12,8 @@ body {
   text-align: center;
 }
 
-/* 3. Change font of all the headings to Georgia */
+/* 
+3. Change font of all the headings to Georgia */
 h1, h2, h3 {
   font-family: Georgia, serif;
 }
