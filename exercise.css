@@ -19,7 +19,8 @@ h1, h2, h3 {
   font-family: Georgia, serif;
 }
 
-/* 4. Set the color of all paragraphs to white and bg color to cornflowerblue (without using tag selector - p) */
+/* 
+4. Set the color of all paragraphs to white and bg color to cornflowerblue (without using tag selector - p) */
 [class*="para"] {
   color: white;
   background-color: cornflowerblue;
