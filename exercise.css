@@ -44,7 +44,8 @@ div button {
 }
 
 /* 
-6. Select Yes label and color to green and No label color to red */
+6. Select Yes label and color to green and No label color to red
+*/
 label[for="yes"] {
   color: green;
 }
