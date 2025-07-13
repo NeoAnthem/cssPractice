@@ -54,7 +54,8 @@ label[for="no"] {
   color: red;
 }
 
-/* 7. Underline 'understanding of selectors' from first h3 and apply italic using CSS */
+/* 
+7. Underline 'understanding of selectors' from first h3 and apply italic using CSS */
 h3#selectors-title {
   text-decoration: underline;
   font-style: italic;
