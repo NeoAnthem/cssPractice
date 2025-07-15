@@ -1,0 +1,38 @@
+.main{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: yellow;
+    position: relative;
+}
+
+.circle1{
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    top: 35px;
+    left: 50px;
+}
+
+.circle2{
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    top: 35px;
+    right: 50px;
+}
+.mouth{
+    height: 35px;
+    width: 100px;
+    top: 130px;
+    right: 50px;
+    background-color: red;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+}

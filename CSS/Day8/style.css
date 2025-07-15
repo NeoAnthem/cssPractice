@@ -1,0 +1,65 @@
+div {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  margin-right: 50px;
+}
+
+.static {
+  background-color: bisque;
+  position: static;
+  top: 0;
+}
+
+.relative {
+  background-color: aqua;
+  position: relative;
+  top: -200px;
+  left: 150px;
+  z-index: -1;
+
+  /* bottom: 0;
+  right: 0; */
+}
+.absolute {
+  background-color: brown;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: -1;
+  margin-right: 0;
+}
+
+.non-static-parent {
+  width: 700px;
+  height: 400px;
+  background-color: chartreuse;
+  position: relative;
+}
+
+.absolute-child {
+  background-color: chocolate;
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  margin: 0;
+  z-index: -1;
+}
+
+.fixed {
+  position: fixed;
+  background-color: violet;
+  top: 0px;
+  width: 100%;
+  left: 0;
+  height: 50px;
+  /* right: 100px; */
+}
+
+.sticky {
+  background-color: crimson;
+  position: sticky;
+  top: 100px;
+  left: 500px;
+}
