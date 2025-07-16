@@ -1,0 +1,13 @@
+.bg{
+    width: 1400px;
+    height: 650px;
+    margin-inline: auto;
+    border: 5px solid red;
+    font-size: 2rem;
+    font-weight: 900;
+    background-image: url("/Day9/assets/pic1.jpg");
+    /* background: linear-gradient(180deg,rgba(255, 0, 0, 0),rgba(70, 59, 59, 0)); */
+    background-repeat: no-repeat;
+    background-size:1400px 650px;
+    color: rgb(111, 165, 212);
+}

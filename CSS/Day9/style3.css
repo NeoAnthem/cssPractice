@@ -1,0 +1,40 @@
+.parent{
+    height: 600px;
+    width: 400px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin: 60px auto;
+
+}
+.child1{
+    height: 400px;
+    width: 400px;
+    background-image: url("/Day9/assets/pic2.jpg");
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+}
+
+.child2{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    /* border: 2px solid black; */
+}
+.parent:hover{
+    box-shadow: 0px 0px 25px 20px rgb(65, 123, 134);
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+    margin-top: 0;
+}
