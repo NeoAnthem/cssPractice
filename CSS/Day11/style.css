@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(16, 16, 40);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.btn {
+  text-align: center;
+  background-color: #363620b7;
+  color: #fde233;
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: fit-content;
+  padding: 20px 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #363620;
+  color: #363620;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: #fde233;
+  transition: all 0.5s ease;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
