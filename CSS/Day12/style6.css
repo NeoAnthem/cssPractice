@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+    height: 500px;
+    background-color: rgb(233, 233, 233);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+       
+.box {
+    text-align: center;
+    border: 2px solid red;
+    /* width: 450px; */
+    height: 100px;
+}
+/* flex: short hand property for flex-grow flex-shrink flex-basis */
