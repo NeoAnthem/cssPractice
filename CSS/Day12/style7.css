@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #210434;
+  font-family: "Segoe Script", cursive;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 2px solid teal;
+  background-color: #210434;
+}
+
+.nav-left {
+  padding: 8px 12px;
+}
+
+.nav-right {
+  padding: 8px 12px;
+}
+
+button {
+  background: teal;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #210434;
+  color: teal;
+  border: 2px solid teal;
+}
