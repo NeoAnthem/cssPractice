@@ -1,0 +1,139 @@
+/* Centering whole container */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e9e7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container in column flex */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+/* Buttons in a flex row */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+button.outline {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+}
+
+button.outline:hover {
+  background: #f0f0f0;
+}
+
+button.filled {
+  background: #1a73e8;
+  color: #fff;
+}
+
+button.filled:hover {
+  background: #155fc4;
+}
+
+/* Cards using flex */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Stars flex row, reversed for hover logic */
+.stars {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.stars span {
+  font-size: 28px;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+/* Hover highlights current + previous stars */
+.stars span:hover,
+.stars span:hover ~ span {
+  color: gold;
+}
+
+.rating-text {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Info section in flex row */
+.info-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.info-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.info-text {
+  font-size: 12px;
+  color: #555;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-size: 12px;
+}
