@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-block: 30px;
+}
+
+.container {
+    width: 90%;
+    height: 600px;
+    background-color: wheat;
+    display: grid;
+    margin-inline: auto;
+
+    /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+    /* Row and column gaps */
+    grid-gap: 30px 45px;
+}
+
+.item {
+    font-size: 1.5rem;
+    background-color: chocolate;
+}
+
+.item1 {
+    background-color: aqua;
+}

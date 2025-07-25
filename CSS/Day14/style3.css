@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-block: 30px;
+}
+
+.container {
+    width: 90%;
+    height: 600px;
+    background-color: wheat;
+    display: grid;
+    margin-inline: auto;
+
+    /* Grid setup */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px 45px;
+
+    /* Centers all items by default */
+    place-items: center;
+}
+
+.item {
+    font-size: 1.5rem;
+    width: 80px;
+    height: 50px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Item 6 custom positioning */
+.item6 {
+    place-self: start; /* Aligns itself to top-left corner of its grid cell */
+}
