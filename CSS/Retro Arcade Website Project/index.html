@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Retro Arcade</title>
+
+  <!-- Pixel font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <a class="brand" href="#hero">RETRO ARCADE</a>
+      
+      <!-- checkbox hack -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="hamburger">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#games">GAMES</a></li>
+        <li><a href="#timeline">TIMELINE</a></li>
+        <li><a href="#facts">FACTS</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#leaderboard">LEADERBOARD</a></li>
+        <li><a href="#join">JOIN</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero" class="hero section-sep">
+    <div class="hero-inner container">
+      <h1>WELCOME TO THE RETRO ARCADE</h1>
+      <p class="lead">Insert Coin • Play Classics • Relive the 8-bit Era</p>
+
+      <div class="arcade-stage" aria-hidden="true">
+        <div class="pacman"></div>
+        <div class="ghost blue"></div>
+        <div class="ghost pink"></div>
+        <div class="dot dot1"></div>
+        <div class="dot dot2"></div>
+        <div class="dot dot3"></div>
+      </div>
+
+      <a class="btn start" href="#games">▶ START EXPLORING</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section-sep">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>The Golden Age of Games</h2>
+          <p class="muted">
+            From coin-ops to consoles, the retro era shaped modern gaming.
+            This mini portal celebrates iconic titles: mazes of <strong>Pac-Man</strong>,
+            platformer adventures of <strong>Mario</strong>, relentless waves in <strong>Space Invaders</strong>,
+            and more.
+          </p>
+          <p class="muted">Built with pure HTML &amp; CSS — responsive layout, animations, and pixel styling.</p>
+        </div>
+        <div class="about-art">
+          <img src="img\retro-game.png" alt="Pac-Man pixel art">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAMES -->
+  <section id="games" class="games section-sep">
+    <div class="container">
+      <h2>Classic Games</h2>
+      <p class="section-sub">Hover any card for glow &amp; pixel effect</p>
+
+      <div class="games-grid">
+        <!-- Cards (7) -->
+        <article class="game-card">
+          <img src="img\pacman-pixel-art.png" alt="Pac-Man">
+          <h3>Pac-Man</h3>
+          <p>Navigate mazes, gobble pellets, evade ghosts.</p>
+          <div class="tags"><span>Arcade</span><span>1980</span></div>
+        </article>
+
+        <article class="game-card">
+          <img src="img\mario.png" alt="Mario">
+          <h3>Super Mario</h3>
+          <p>Run, jump, stomp enemies — classic platforming.</p>
+          <div class="tags"><span>Platformer</span><span>1985</span></div>
+        </article>
+
+        <article class="game-card">
+          <img src="img\space-invader.png" alt="Space">
+          <h3>Space Invaders</h3>
+          <p>Defend Earth from descending alien formations.</p>
+          <div class="tags"><span>Shooter</span><span>1978</span></div>
+        </article>
+
+        <article class="game-card">
+          <img src="img\donkey-kong.png" alt="Donkey Kong">
+          <h3>Donkey Kong</h3>
+          <p>Climb girders, dodge barrels, save the day.</p>
+          <div class="tags"><span>Arcade</span><span>1981</span></div>
+        </article>
+
+        <article class="game-card">
+          <img src="img\tetris.png" alt="Tetris">
+          <h3>Tetris</h3>
+          <p>Arrange falling blocks into complete lines.</p>
+          <div class="tags"><span>Puzzle</span><span>1984</span></div>
+        </article>
+
+        <article class="game-card">
+          <img src="img\street-fighter.png" alt="Street Fighter">
+          <h3>Street Fighter</h3>
+          <p>One-on-one fights, combos &amp; special moves.</p>
+          <div class="tags"><span>Fighting</span><span>1987</span></div>
+        </article>
+
+        <article class="game-card">
+          <img src="img\sonic.png" alt="Sonic">
+          <h3>Sonic</h3>
+          <p>Speed through loops and collect golden rings.</p>
+          <div class="tags"><span>Platformer</span><span>1991</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline" class="timeline section-sep">
+    <div class="container">
+      <h2>Gaming Timeline</h2>
+      <div class="timeline-grid">
+        <div class="event">
+          <div class="year">1978</div>
+          <div class="evt-body">
+            <h4>Space Invaders</h4>
+            <p>Arcade revolution — defending Earth in the cabinet era.</p>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="year">1980</div>
+          <div class="evt-body">
+            <h4>Pac-Man</h4>
+            <p>Pac-Man becomes a cultural icon with maze gameplay.</p>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="year">1985</div>
+          <div class="evt-body">
+            <h4>Super Mario Bros.</h4>
+            <p>Platforming redefined — secrets, levels, and soundtrack.</p>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="year">1991</div>
+          <div class="evt-body">
+            <h4>Sonic the Hedgehog</h4>
+            <p>High-speed platforming shines on home consoles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUN FACTS -->
+  <section id="facts" class="facts section-sep">
+    <div class="container">
+      <h2>Fun Facts</h2>
+      <ul class="facts-list">
+        <li><i class="fa-solid fa-compact-disc"></i> Early arcade machines used printed circuit boards.</li>
+        <li><i class="fa-solid fa-crown"></i> Pac-Man was designed to appeal broadly (not just to males).</li>
+        <li><i class="fa-solid fa-gamepad"></i> Tetris was created in the Soviet Union in 1984.</li>
+        <li><i class="fa-solid fa-star"></i> High-score culture created local arcade legends.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery section-sep">
+    <div class="container">
+      <h2>Retro Gallery</h2>
+      <div class="gallery-grid">
+        <img src="img\pacman-pixel-art.png" alt="pacman" target="_blank" rel="noopener noreferrer">
+        <img src="img\mario.png" alt="mario">
+        <img src="img\space-invader.png" alt="space">
+        <img src="img\donkey-kong.png" alt="donkey">
+        <img src="img\tetris.png" alt="tetris">
+        <img src="img\street-fighter.png" alt="street">
+        <img src="img\sonic.png" alt="sonic">
+        <img src="img\retro-game.png" alt="retro">
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERBOARD -->
+  <section id="leaderboard" class="leaderboard section-sep">
+    <div class="container">
+      <h2>Leaderboard</h2>
+      <table class="score-table" aria-label="Leaderboard">
+        <thead>
+          <tr><th>Rank</th><th>Player</th><th>Game</th><th>Score</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>PIXEL PRO</td><td>Pac-Man</td><td>999999</td></tr>
+          <tr><td>2</td><td>COIN COLLECTOR</td><td>Tetris</td><td>875400</td></tr>
+          <tr><td>3</td><td>LOOP RUNNER</td><td>Sonic</td><td>754200</td></tr>
+          <tr><td>4</td><td>BLOCK MASTER</td><td>Donkey Kong</td><td>623100</td></tr>
+          <tr><td>5</td><td>ALIEN BUSTER</td><td>Space Invaders</td><td>512000</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- JOIN -->
+  <section id="join" class="join section-sep">
+    <div class="container">
+      <h2>Join the Arcade</h2>
+      <p class="muted">Sign up for retro updates & leaderboards.</p>
+
+      <form class="join-form">
+        <input type="text" placeholder="ENTER NAME" required>
+        <input type="email" placeholder="ENTER EMAIL" required>
+        <textarea placeholder="YOUR MESSAGE"></textarea>
+        <button class="btn coin" type="submit">INSERT COIN</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer section-sep">
+    <div class="container">
+      <p>© <span id="yr">2025</span> Retro Arcade — Built by Darshan Takarkhede</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/darshan-takarkhede-168937252/" aria-label="linkedin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/NeoAnthem" aria-label="github" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/darshan_t15/" aria-label="instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
